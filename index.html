@@ -1,24 +1,239 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 20</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 20 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión ¡La Gran Expo de Inventos Brillantes!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Montar una "estación" interactiva con su proyecto.</li>
+<li>Practicar cómo explicar y demostrar su circuito a un "visitante".</li>
+<li>Desarrollar la autoeficacia y el orgullo por el trabajo.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Presentación exitosa de un proyecto interactivo en su propia estación.</li>
+<li>Comunicación clara del funcionamiento del circuito a un compañero.</li>
+<li>Participación respetuosa y colaborativa en la dinámica de la expo.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Todos los proyectos finales.</li>
+<li>Mesas y carteles para cada estación.</li>
+<li>Música ambiental.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Listos para Brillar! La Bienvenida Estelar ⏰ 5 min</h2>
+<p>Iniciamos nuestra jornada con energía, preparando nuestros corazones y mentes para una aventura llena de creatividad y colaboración.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Gran Saludo del Capitán ⏰ 3 min</h3>
+<p>Recibe a los pequeños con una sonrisa y entusiasmo contagioso. Puedes usar una canción especial de bienvenida o un movimiento divertido que ya conozcan para captar su atención de inmediato. Asegúrate de que todos se sientan vistos y parte del equipo desde el primer momento. (Proyectar Diapositiva 1)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, mis queridos inventores y exploradores del futuro! ¡Qué alegría verlos listos para una misión increíble el día de hoy! ¡A ver esas manitas al aire si están listos para un día lleno de magia, ideas y mucha diversión! ¡Yo creo que sí! ¡Listos para brillar!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Nuestro Ritmo Mágico ⏰ 2 min</h3>
+<p>Para prepararnos, vamos a hacer nuestro "Ritmo Mágico". Pide a los niños que sigan un patrón de palmadas o movimientos sencillos (por ejemplo, palmada, rodilla, palmada, salto) para activar su cuerpo y su mente. Esto ayuda a centrar su atención y a transicionar hacia la actividad principal. (Proyectar Diapositiva 2)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente energía, equipo! Ahora, vamos a hacer nuestro "Ritmo Mágico" para despertar todas nuestras ideas. ¡Síganme! Primero, palmada en las rodillas, luego aplauso, y ahora un pequeño salto de la alegría. ¡Eso es! ¡Lo están haciendo genial! ¡Estamos listos para cualquier reto!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: ¡A Preparar la Gran Inauguración! ⏰ 10 min</h2>
+<p>Es hora de entender la gran misión que nos espera: montar nuestra propia feria de inventos y prepararnos para recibir a nuestros "visitantes especiales".</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: La Historia de Nuestra Expo ⏰ 5 min</h3>
+<p>Reúne a los niños en un círculo o frente al área donde se proyectará la diapositiva. Explícales que hoy es un día muy especial porque van a montar una "Expo" con todos los proyectos geniales que han creado. Usa un tono de voz entusiasta y narrativo para hacer la historia emocionante, imaginando a los "visitantes" (que pueden ser otros niños, padres o incluso peluches). (Proyectar Diapositiva 3)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Equipo, pongan mucha atención! ¡Hoy es un día histórico! ¿Se acuerdan de todos esos circuitos geniales que crearon con tanto cariño y dedicación? ¡Pues hoy los vamos a convertir en estrellas de nuestra propia "Gran Expo de Inventos Brillantes"! Imaginen que vienen muchos visitantes curiosos a ver sus creaciones. ¿Saben qué es una expo? Es como una fiesta grande donde mostramos cosas increíbles, ¡y hoy mostraremos sus inventos! ¡Cada uno de ustedes es un súper inventor!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Manos a la Obra: Montando Nuestras Estaciones ⏰ 5 min</h3>
+<p>Guía a cada equipo (o a cada niño, si los proyectos son individuales) para que elija una mesa o un espacio designado en el aula para montar su "estación". Anímalos a colocar su proyecto de manera que sea fácil de ver y manipular. Luego, pídeles que, con tu ayuda, le pongan un nombre padrísimo a su invento en un cartel. Recuérdales que el nombre debe ser creativo y reflejar lo que hace su circuito. Circula por el aula ofreciendo apoyo y celebrando sus ideas. (Proyectar Diapositiva 4)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ahora sí, superinventores, manos a la obra! ¡Vamos a montar nuestras estaciones como los profesionales que somos! Cada equipo elija su mesa, su espacio, ¡donde su invento pueda brillar! Y, ¡súper importante!, vamos a ponerle un nombre padrísimo a nuestro invento en un cartel, ¡que todos sepan lo que creamos! ¿Cómo se llama su invento? ¡El "Robot Saltador"? ¿La "Luz Mágica"? ¡Qué nombres tan geniales! ¡Vamos a hacer que cada estación sea un lugar mágico!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: El Gran Ensayo General: ¡Luces, Cámara, Acción! ⏰ 20 min</h2>
+<p>Aquí es donde la magia sucede. Practicaremos cómo ser grandes expositores y curiosos visitantes, ¡intercambiando roles para aprender de todos!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Asignación de Roles y Preparativos ⏰ 5 min</h3>
+<p>Divide a los niños en dos grupos claros: la mitad serán "Expositores" y la otra mitad serán "Visitantes". Asegúrate de que entiendan la diferencia de roles. Reparte los "gafetes" de "Expositor" y "Visitante" (o algo similar, como pulseras de colores) para que los roles sean visualmente claros y divertidos. Explica brevemente qué hará cada rol. (Proyectar Diapositiva 5)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, atención, equipo! ¡Llegó el momento de nuestro ensayo especial! Para que nuestra Expo sea un éxito rotundo, vamos a practicar. La mitad del equipo serán nuestros "Expositores" ¡los que van a explicar sus increíbles inventos! Y la otra mitad serán nuestros "Visitantes" ¡los que van a explorar y hacer preguntas curiosas! ¡Miren, aquí están sus gafetes especiales! ¡Pónganselos con mucho orgullo! ¡Ahora sí, a sus marcas, listos, a ordenar! ¡Los expositores en sus estaciones y los visitantes listos para explorar!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Expositores al Frente! ⏰ 7 min</h3>
+<p>Indica a los "Expositores" que se queden en sus estaciones, listos para mostrar y explicar sus proyectos. Pide a los "Visitantes" que roten por las estaciones de sus compañeros, observando y haciendo preguntas. Anima a los expositores a explicar con entusiasmo el funcionamiento de su circuito, qué hace y cómo lo construyeron. Guía a los visitantes a hacer preguntas como: "¿Cómo lo hiciste?", "¿Para qué sirve?", "¿Qué pasa si aprieto aquí?". Supervisa la interacción, asegurando que todos tengan la oportunidad de participar. (Proyectar Diapositiva 6)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, qué concentrados están! Expositores, ¡cuenten con emoción cómo funciona su circuito! ¿Qué hace? ¿Para qué sirve? ¡Imaginen que están contando un secreto muy emocionante! Y visitantes, ¡no se queden con la duda! ¡Hagan preguntas curiosas! "¿Cómo crees que lo hicieron?", "¿Qué pasa si toco esto?". ¡Recuerden ser muy respetuosos y tocar con cuidado los inventos de sus amigos!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡Cambio de Roles, Nuevas Aventuras! ⏰ 8 min</h3>
+<p>A mitad del tiempo asignado para esta actividad (aproximadamente a los 7-8 minutos), anuncia el cambio de roles con una señal clara, como una campana o una frase especial. Guía a los niños para que cambien sus gafetes (si aplica) y asuman su nuevo rol. Los que fueron "Expositores" ahora serán "Visitantes" y viceversa. Repite las instrucciones para ambos roles, enfatizando la importancia de la explicación clara y la curiosidad respetuosa. Continúa supervisando y fomentando la interacción. (Proyectar Diapositiva 7)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Escuchen, escuchen! ¡Suena la campana mágica! ¡Es hora de cambiar de roles! Los que eran expositores, ahora serán visitantes, ¡y los visitantes, ahora serán nuestros maravillosos expositores! ¡Qué emoción! ¡Ahora tendrán la oportunidad de experimentar ambos lados de la Expo! Cuenten sus historias con alegría y pregunten con mucha curiosidad. ¡Recuerden que todos estamos aprendiendo juntos!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida y Ajustes de Campeones! ⏰ 5 min</h2>
+<p>Cerramos nuestra sesión reflexionando sobre lo aprendido y ajustando los últimos detalles para que nuestra Expo del futuro sea ¡simplemente perfecta!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Reflexión y Compartir Experiencias ⏰ 3 min</h3>
+<p>Reúne a los niños en un círculo. Haz preguntas abiertas que los inviten a reflexionar sobre la actividad. Anímalos a compartir sus sentimientos y observaciones. Escucha atentamente sus respuestas y valida sus experiencias. Pregunta: "¿Qué fue lo más divertido de ser expositor?", "¿Qué fue lo más interesante de ser visitante?", "¿Hubo algo que les costó trabajo explicar? ¿Qué podemos mejorar para la expo real?". (Proyectar Diapositiva 8)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Equipo, vengan todos al círculo! ¡Uff, qué ensayo tan espectacular! ¡Misión cumplida por hoy! Pero, cuéntenme, mis pequeños genios: ¿Qué fue lo más divertido de ser expositor? ¿Y de ser visitante? ¿Hubo algo que les costó trabajo explicar? ¿Quizás una parte del circuito que es un poco difícil de entender? ¿Qué creen que podemos hacer mejor para que nuestra Expo real sea aún más increíble? ¡Todas sus ideas son valiosas y nos ayudarán a brillar aún más!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡A Celebrar y Despedirnos! ⏰ 2 min</h3>
+<p>Felicita a todos los niños por su increíble esfuerzo, creatividad y por la forma en que colaboraron. Recuérdales lo orgulloso(a) que estás de sus logros. Termina la sesión con un aplauso grande para todos o una canción de despedida. Refuerza la idea de que son unos verdaderos "inventores y comunicadores" preparados para la gran Expo. (Proyectar Diapositiva 9)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Felicidades a todos, mis superestrellas de la tecnología! ¡Hoy demostraron ser unos inventores y comunicadores de primera! ¡Se ganaron un aplauso gigante por su esfuerzo y por sus ideas tan brillantes! ¡Cada uno de sus proyectos es único y especial! ¡Gracias por hacer de esta misión una aventura inolvidable! ¡Nos vemos en la próxima misión para seguir explorando el mundo de la tecnología! ¡Adiós, equipo!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
